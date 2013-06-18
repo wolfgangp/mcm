@@ -37,10 +37,7 @@ def rlinput(prompt, prefill=''):
    finally:
       readline.set_startup_hook()
 
-#reads 
-
 #help(tmdb.Movie)
-#tmdb.core.getJSON("http://httpbin.org/get?m=hello")["args"]["m"],"hello")
 cont = os.listdir(".")
 mfile = []
 for filename in cont:
