@@ -56,7 +56,7 @@ if len(mfile) > 0:
       guess = str(mfile[0])
       guess = guess[:-4]
       guess = guess.replace('.',' ')  
-      guess = guess[0:30]
+      guess = guess[0:20]
       
 raw = rlinput('Film name: ',guess)
 #raw = raw_input("Movie name: ")
