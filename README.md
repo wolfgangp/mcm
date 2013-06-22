@@ -5,10 +5,10 @@ mcm = movie collection mover
 python movie file-handling script to parse movie files and rename and move files (tmdb.py library used to parse and subliminal to get subtitles)
 
 files:
-mcm.py
-tmdb.py (modified for crew parsing. originally from: https://github.com/doganaydin/themoviedb )
 
-subliminal (not included, must be in user path. see: https://github.com/Diaoul/subliminal )
+mcm.py
+
+(tmdb.py and subliminal are required. see: https://github.com/doganaydin/themoviedb and https://github.com/Diaoul/subliminal , as well as their respective requirements.)
 
 the script presupposes that current directory contains one movie file on which its guess at the title (no multi-volume support yet) is based. There is a prompt for you to submit an exact title. tmdb.org is then parsed for title, original title, year and director. A file naming scheme is then enforced:
 
