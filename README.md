@@ -22,6 +22,4 @@ In a target directory you specify a folder will be created named
 
 Both movie and subtitle files (including .idx if there) will then be moved.
 
-It is all very simple and serves only highly specific needs. I'm a Python beginner. If you wanna drop me a line, please do.
-
--wolfgangp juzzuj@gmx.at
+It is all very simple and serves only highly specific needs.
